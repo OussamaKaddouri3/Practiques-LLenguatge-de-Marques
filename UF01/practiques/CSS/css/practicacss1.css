@@ -1,0 +1,116 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f8f9fe, #e4f0ff); 
+    position: relative;
+    overflow-x: hidden;
+    color: #333;
+}
+
+body::before {
+    top: -50px;
+    left: -50px;
+}
+
+body::after {
+    bottom: -50px;
+    right: -50px;
+}
+
+
+header {
+    padding: 40px 20px;
+    background-image: url("../img/bg-hero-desktop.svg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.header_top {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header_logo img {
+    width: 150px;
+}
+
+.header_tryit {
+    background-color: #fff;
+    border: 2px solid #ff52bf;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ff52bf;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.header_tryit:hover {
+    background-color: #ff52bf;
+    color: #fff;
+}
+
+
+.header_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header_intro {
+    max-width: 500px;
+    text-align: left;
+}
+
+.header_intro h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.header_intro p {c
+    font-size: 16px;
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.header_getstarted {
+    display: inline-block;
+    background-color: #ff52bf;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.header_getstarted:hover {
+    background-color: #ff8fd8;
+}
+
+
+.header_bottom img {
+    width: 100%;
+    max-width: 500px;
+}
+
+background_image{
+    url
+    
+}
